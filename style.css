@@ -14,36 +14,49 @@ html,body {
 position:absolute;
             
         }
+        
+.follow1{
+  position:fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+.follow1 img {
+    width: 100%;
+    height: 70px;
+
+
+}
+
+.follow2{
+  position:fixed;
+  right: 90px;
+  bottom: 70px;
+}
+.follow2 img {
+    width: 90px;
+    height: 70px;
+
+
+}
+        
+        
+        
 
 
 .follow{
   position:fixed;
-  right:80px;
-  top:40px;
+  right:90px;
+  top:50px;
 }
 .follow img {
-    width: 110px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
 
 
 }
 
-        #marquee {
-            font-size: 25px;
-            font-weight: bold;
-            
-      
-        position: fixed;
-        overflow: hidden;
-        margin: 0;
-        
-        
-        top: 0;
-        left: 0;
-        right: 0;
-        background-color: #4169e1;
-        color: #ffffff;
-      }
+
     
   .swiper-container {
       
@@ -59,31 +72,9 @@ position:absolute;
     
   }
   
-.tv-container #clock {
-font-size:25px;
-font-family: Montserrat, sans-serif;
- font-weight: bold;
 
-  background: red;
-  color: #fFF;
-  width: 140px;
-  height: 35px;
-  
-  position:fixed;
-  right:0px;
-  top:0px;
-
-}
   
 
-.tv-container1 .follow5 img {
-  width: 70px;
-  height: 35px;
-position:fixed;
-  left:0px;
-  top:0px;
-  
-}
 
     
     
